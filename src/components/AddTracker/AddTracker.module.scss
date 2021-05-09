@@ -1,0 +1,18 @@
+.form {
+  padding: 8rem 0 0 0;
+}
+
+.input {
+  position: relative;
+  border: 1px solid rgb(128, 128, 128);
+  padding: 1.2rem 2rem 1.2rem 1.5rem;
+  border-radius: 4rem;
+
+  &::placeholder {
+    color: rgb(160, 160, 160);
+  }
+}
+
+.btn {
+  position: absolute;
+}
