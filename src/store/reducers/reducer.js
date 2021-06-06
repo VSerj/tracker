@@ -18,7 +18,7 @@ const initState = [
     started: true,
   },
   {
-    id: 3,
+    id: 2,
     text: '3 Long name Yeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah Tracker',
     started: false,
   },
