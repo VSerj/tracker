@@ -8,8 +8,14 @@ const TrackerList = () => {
 
   return (
     <ul className={s.list}>
-      {trackers.map(({ id, text, started }) => (
-        <TrackerItem key={id} text={text} started={started} id={id} />
+      {trackers.map(({ id, text, timestamp, started }) => (
+        <TrackerItem
+          key={id}
+          text={text}
+          timestamp={timestamp}
+          started={started}
+          id={id}
+        />
       ))}
     </ul>
   );

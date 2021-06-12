@@ -11,16 +11,19 @@ const initState = [
     id: 0,
     text: 'No name tracker #1',
     started: false,
+    timestamp: Date.now(),
   },
   {
     id: 1,
     text: 'No name tracker #2',
     started: true,
+    timestamp: Date.now(),
   },
   {
     id: 2,
     text: '3 Long name Yeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah Tracker',
     started: false,
+    timestamp: Date.now(),
   },
 ];
 
@@ -31,6 +34,7 @@ export const reducer = (state = initState, action) => {
         {
           id: setId(),
           text: action.payload,
+          timestamp: Date.now(),
           started: true,
         },
         ...state,

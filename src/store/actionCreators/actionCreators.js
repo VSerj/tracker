@@ -1,6 +1,6 @@
 import { TRACKER_ADD, TRACKER_STARTED, TRACKER_DEL } from './../constants.js';
 
-export const addTracker = text => ({
+export const addTrackerWithName = text => ({
   type: TRACKER_ADD,
   payload: text,
 });

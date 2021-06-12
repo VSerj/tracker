@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import Button from '../Button';
 import s from './AddTracker.module.scss';
 import IconPlayCircle from '../IconPlayCircle';
-import { addTracker } from '../../store/actionCreators/actionCreators';
+import { addTracker } from '../../store/thunks/thunks.js';
 
 const AddTracker = () => {
   const [textInput, setTextInput] = useState('');
